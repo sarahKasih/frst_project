@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>This is Header </title>
+</head>
+<body>
+  <header>
+    <h1>Ristorante con Fusion</h1>
+    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience.
+       Our lipsmacking creations will tickle your culinary senses!</p>
+  </header>
+  <div class="row">
+    <ol class="col-12 breadcrumb">
+        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+        <li class="breadcrumb-item active">My works</li>
+    </ol>
+    <div class="col-12">
+       <h3>Contact Us</h3>
+       <hr>
+    </div>
+</div>
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="Navbar">
+    <ul class="navbar-nav mr-auto"> 
+        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+         </ul>
+         <span class="navbar-text">
+             <a data-toggle="modal" data-target="#loginModal">
+                 <span class="fa fa-sign-in"></span>Login
+             </a>
+         </span>
+    </div>
+  </div>
+</nav>
+   
+<div class="modal-body">
+  <div class="container-fluid">
+    <h2> the first Row has three columnsthat have md4 and the last one is empty until now</h2>
+    <div class="row row-content">
+      <div class="col-md-4">.col-md-4
+        <div class="block block-primary">
+          <h3><i class="fa fa-check"></i> Sleek</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti
+          </p>
+          <a href="#" class="btn btn-default">Read More</a>
+        </div>
+      </div>
+      <div class="col-md-4 ml-auto">.col-md-4 .ml-auto
+        <div class="block block-secondary">
+          <h3><i class="fa fa-check"></i> Responsive</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra varius maximus. Cras condimentum porttitor enim a egestas. Suspendisse potenti
+          </p>
+          <a href="#" class="btn btn-default">Read More</a>
+        </div>
+      </div>
+      <div class="col-md-4 ml-auto">.col-md-4 .ml-auto
+        <div id="accordion">
+          <div class="card">
+              <div class="card-header" role="tab" id="peterhead">
+                  <h3 class="mb-0">
+                       <a  data-toggle="collapse" data-target="#peter">
+                             Peter Pan <small>Chief Epicurious Officer</small>
+                  </a></h3>
+              </div>
+              <div class="collapse" role="tabpanel" id="peter" data-parent="#accordion">
+                 <div class="card-body">
+                  <p class="d-none  d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                 </div>
+               </div>
+          </div>
+          
+          <div class="card">
+              <div class="card-header" role="tab" id="dannyhead">
+                  <h3 class="mb-0">
+                       <a  data-toggle="collapse" data-target="#danny" href="">
+                          Dhanasekaran Witherspoon <small>Chief Food Officer</small>
+                  </a></h3>
+              </div>
+              <div class="collapse" role="tabpanel" id="danny" data-parent="#accordion">
+                 <div class="card-body">
+                  <p class="d-none  d-sm-block">Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
+
+                 </div>
+               </div>
+          </div>
+
+          <div class="card">
+              <div class="card-header" role="tab" id="agumbehead">
+                  <h4 class="mb-0">
+                       <a  data-toggle="collapse" data-target="#agumbe" href="">
+                          Agumbe Tang <small>Chief Taste Officer</small>
+                  </a></h4>
+              </div>
+              <div class="collapse" role="tabpanel" id="agumbe" data-parent="#accordion">
+                 <div class="card-body">
+                  <p class="d-none  d-sm-block">Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
+
+                 </div>
+               </div>
+          </div>
+          <div class="card">
+              <div class="card-header" role="tab" id="albertohead">
+                  <h3 class="mb-0">
+                       <a  data-toggle="collapse" data-target="#alberto" href="">
+                          Alberto Somayya <small>Executive Chef</small>
+                  </a></h3>
+              </div>
+              <div class="collapse " role="tabpanel" id="alberto" data-parent="#accordion">
+                 <div class="card-body">
+                  <p class="d-none  d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
+                 </div>
+               </div>
+          </div>   
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 ml-auto">.col-md-3 .ml-auto
+        
+      </div>
+      <div class="col-md-2 ml-auto">.col-md-2 .ml-auto
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 ml-auto">.col-md-6 .ml-auto</div>
+    </div>
+    <div class="row">
+      <div class="col-sm-9">
+        Level 1: .col-sm-9
+        <div class="row row-content">
+          <div class="col">
+              <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner" role="listbox">
+                       <div class="carousel-item active">
+                          <img src="img/uthappizza.png" alt="uthappizza" class="d-block img-fluid">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h2>Uthappizzas <span class="badge badge-danger">Hot</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                              <p class="d-none  d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza,
+                               topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>              
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="img/buffet.png" alt="uthappizza" class="d-block img-fluid">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h2>Weekend Grand Buffet  <span class="badge badge-danger"> New</span></h2>
+                              <p class="d-none  d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                          </div>
+                       </div>
+                      <div class="carousel-item">
+                          <img src="img/alberto.png" alt="uthappizza" class="d-block img-fluid">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h2>Alberto Somayya</h2>
+                              <h4>Executive Chef</h4>
+                              <p class="d-none  d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                          </div>
+                       </div>
+                       <ol class="carousel-indicators">
+                          <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#mycarousel" data-slide-to="1" ></li>
+                          <li data-target="#mycarousel" data-slide-to="2" ></li>
+                       </ol>
+                      <a href="#mycarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                      </a>
+                      <a href="#mycarousel" class="carousel-control-next" role="button" data-slide="next">
+                         <span class="carousel-control-next-icon"></span>
+                     </a>
+
+                   </div>
+
+               </div>
+          </div> 
+
+      </div>
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            Level 2: .col-8 .col-sm-6
+            
+          </div>
+          <div class="col-4 col-sm-6">
+            Level 2: .col-4 .col-sm-6
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+ <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+ <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+ <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
